@@ -43,6 +43,8 @@ Gender: Women had a higher survival rate, likely due to prioritization during th
 Ticket Class: First-class passengers had better survival rates, showing the impact of socio-economic status.
 Age: Younger passengers were more likely to survive, reflecting the prioritization of children.
 
+----------------------------------------------xxx----------------------------xxx------------------------------------------------
+
 Task-2:Movie Rating Prediction Using Python
 
 Overview
@@ -51,25 +53,25 @@ This project involves building a predictive model to estimate movie ratings base
 Project Steps:-
 
 1. Data Loading and Exploration
-Loaded the IMDb movie dataset.
-Explored the dataset to understand its structure, data types, and missing values.
+   Loaded the IMDb movie dataset.
+   Explored the dataset to understand its structure, data types, and missing values.
 
 2. Data Preprocessing
 
-Handling Missing Values: Filled missing numeric values with the mean of respective columns.
-Categorical Encoding: Transformed categorical variables (genre, director, and actors) using Label Encoding.
-Feature Scaling: Standardized numerical features (budget, runtime) using StandardScaler.
+   Handling Missing Values: Filled missing numeric values with the mean of respective columns. 
+   Categorical Encoding: Transformed categorical variables (genre, director, and actors) using Label Encoding.
+   Feature Scaling: Standardized numerical features (budget, runtime) using StandardScaler.
 
 3. Model Building and Training
 
-Model Selection: Used Linear Regression to predict movie ratings.
-Training: Split the dataset into training and testing sets to train the model.
-Evaluation: Assessed the model's performance using Root Mean Squared Error (RMSE).
+   Model Selection: Used Linear Regression to predict movie ratings.
+   Training: Split the dataset into training and testing sets to train the model.
+   Evaluation: Assessed the model's performance using Root Mean Squared Error (RMSE).
 
 4. Model Evaluation and Visualization
 
-Actual vs. Predicted Ratings: Visualized the relationship between actual and predicted ratings with scatter plots and regression lines.
-Residuals Distribution: Plotted the distribution of residuals to analyze prediction errors.
+   Actual vs. Predicted Ratings: Visualized the relationship between actual and predicted ratings with scatter plots and regression lines.
+   Residuals Distribution: Plotted the distribution of residuals to analyze prediction errors.
 
 Key Insights:-
 Model Performance: The Linear Regression model provided valuable insights into the factors affecting movie ratings and yielded a clear understanding of prediction accuracy.
